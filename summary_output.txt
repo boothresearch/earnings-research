@@ -1,4 +1,4 @@
-[1] 2020-09-15 19:56:03 UTC
+[1] 2020-09-15 20:38:19 UTC
 
 Call:
 lm(formula = earnings$earn ~ earnings$height)
