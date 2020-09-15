@@ -11,3 +11,9 @@ print(Sys.time(), quote=FALSE)
 # printing summary of regression 
 print(summary(fitted.model))
 closeAllConnections() 
+
+png("reg01.png") # open a png file
+# plot the data 
+plot(earnings$height, earnings$earn, xlim = c(40,90), xlab = "height", ylab = "earnings")
+# add in fitted line 
+abline(fitted.model)
