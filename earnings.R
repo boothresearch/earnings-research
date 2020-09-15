@@ -6,4 +6,6 @@ fitted.model <-  lm(earnings$earn ~ earnings$height)
 print(summary(fitted.model))
 
 # save output 
-dput(summary(fitted.model),file="summary_lm.txt",control="all")
+sink("summary.txt")
+summary(fitted.model)
+sink()
