@@ -16,6 +16,6 @@ png("reg01.png") # open a png file
 # plot the data 
 plot(earnings$height, earnings$earn, xlim = c(40,90), xlab = "height", ylab = "earnings")
 # add in fitted line 
-abline(fitted.model)
+abline(fitted.model, col="red")
 
 # add in interactions for male and height 
